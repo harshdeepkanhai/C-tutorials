@@ -2,6 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-    printf("Hello World");
+    printf("    /|\n");
+    printf("   / |\n");
+    printf("  /  |\n");
+    printf(" /___|\n");
     return 0;
 }
