@@ -14,5 +14,7 @@ int main() {
         printf("%d\n", index);
         index++;
     } while (index <=0);
+
+    return 0;
     
 }
