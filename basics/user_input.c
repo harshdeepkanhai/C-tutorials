@@ -10,8 +10,6 @@ int main() {
     printf("Enter your name: ");
     scanf("%s", name);  // Pointer is not needed for string
 
-    //  Use fgets to fetch string as scanf strips after a space
-    fgets(name, 20, stdin);
 
     printf("Enter your age: ");
     scanf("%d", &age);  // Pointer
