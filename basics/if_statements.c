@@ -15,7 +15,11 @@ int max(int num1, int num2, int num3) {
 
 
 int main() {
-
+    if (3 > 2 || 2 > 5) {
+        printf("True");
+    } else {
+        printf("False")
+    }
     printf("%d", max(49, 10,79));
     return 0;
 }
